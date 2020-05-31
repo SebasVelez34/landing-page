@@ -1,0 +1,258 @@
+.has-bottom-divider {
+    position: relative
+}
+
+.has-bottom-divider::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: #242830
+}
+
+.dark-mode {
+    position: absolute;
+    width: 6%;
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.has-animations .anime-element {
+    visibility: hidden
+}
+
+.site-header {
+    padding: 24px 0
+}
+
+.site-header-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.hero {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 88px
+}
+
+.hero-copy {
+    position: relative;
+    z-index: 1
+}
+
+.hero-cta {
+    margin-bottom: 40px
+}
+
+.hero-figure {
+    position: relative
+}
+
+.hero-figure svg {
+    width: 100%;
+    height: auto
+}
+
+.hero-figure::after,.hero-figure::before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.has-animations .hero-figure::after,.has-animations .hero-figure::before {
+    opacity: 0;
+    transition: opacity 2s ease
+}
+
+.features-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: -32px;
+    margin-left: -32px
+}
+
+.features-wrap:first-of-type {
+    margin-top: -16px
+}
+
+.features-wrap:last-of-type {
+    margin-bottom: -16px
+}
+
+.feature {
+    padding: 16px 32px;
+    width: 380px;
+    max-width: 380px;
+    flex-grow: 1
+}
+
+.feature-inner {
+    height: 100%
+}
+
+.feature-icon {
+    display: flex;
+    justify-content: center
+}
+
+.contact-header {
+    margin-bottom: 48px
+}
+
+.contact-tables-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -12px;
+    margin-left: -12px
+}
+
+.contact-tables-wrap:first-child {
+    margin-top: -12px
+}
+
+.contact-tables-wrap:last-child {
+    margin-bottom: -12px
+}
+
+.contact-table {
+    position: relative;
+    padding: 12px;
+    width: 368px;
+    max-width: 368px;
+    flex-grow: 1
+}
+
+.contact-table::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 200%;
+    max-width: 200%;
+    height: 435px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    bottom: 18.8%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-image: url(../images/contact-illustration.svg)
+}
+
+.contact-table-features-title,.contact-table-header {
+    border-bottom: 1px solid rgba(138,148,167,.24)
+}
+
+.contact-table-inner {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    height: 100%;
+    &.light{
+        background: $bg-light;
+    }
+}
+
+.contact-table-inner>* {
+    position: relative;
+    width: 100%
+}
+
+.contact-table-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 24px 48px rgba(21,24,29,.24);
+    mix-blend-mode: multiply
+}
+
+.contact-table-features-title {
+    color: #fff;
+    font-weight: 700
+}
+
+.contact-table-cta {
+    align-self: flex-end
+}
+
+
+
+.cta {
+    text-align: center
+}
+
+.cta .section-inner {
+    padding: 48px 16px
+}
+
+.cta .section-title {
+    margin-bottom: 40px
+}
+
+.cta-inner {
+    position: relative;
+    background: #15181d;
+    overflow: hidden
+}
+
+.cta-inner::before {
+    content: '';
+    position: absolute;
+    right: 98px;
+    top: -117px;
+    width: 160px;
+    height: 187px;
+    background-image: url(../images/cta-illustration.svg);
+    background-repeat: no-repeat
+}
+
+.cta-inner>* {
+    position: relative
+}
+
+
+
+.is-boxed {
+    background: #242830
+}
+
+.body-wrap {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    &.light {
+        background-color: $bg-light;
+    }
+}
+
+.boxed-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-shadow: 0 24px 48px rgba(21,24,29,.24);
+    mix-blend-mode: multiply;
+    mix-blend-mode: normal
+}
+
+
+
+.section-inner {
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px
+}
+
+

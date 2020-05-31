@@ -1,0 +1,111 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 30px;
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: #1d2026;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #8a94a7;
+    font-size: 1rem;
+
+    &.light{
+        color: $bg-text-light;
+    }
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+img,svg {
+    display: block
+}
+
+body,button,input,textarea {
+    font-family: "IBM Plex Sans",sans-serif
+}
+
+a {
+    color: #8a94a7;
+    text-decoration: underline;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:active,a:hover {
+    outline: 0;
+    text-decoration: none
+}
+
+footer,header,section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+*,:after,:before {
+    box-sizing: inherit
+}
+
+.text-sm {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -.1px
+}
+
+.text-xs {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.1px
+}
+
+.container,.container-sm {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+.container {
+    max-width: 1128px
+}
+
+.container-sm {
+    max-width: 848px
+}
+
+.container .container-sm {
+    max-width: 800px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-primary {
+    color: #0270d7
+}
+
+main {
+    flex: 1 0 auto
+}

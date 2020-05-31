@@ -1,0 +1,33 @@
+.footer-brand {
+    flex: none;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center
+}
+
+.footer-brand {
+    margin-bottom: 24px
+}
+
+.site-footer {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0
+}
+
+.site-footer a {
+    color: #8a94a7;
+    text-decoration: none
+}
+
+.site-footer a:active,.site-footer a:hover {
+    text-decoration: underline
+}
+
+.site-footer-inner {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    padding-bottom: 48px
+}

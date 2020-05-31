@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="es" class="no-js dark">
+<html lang="es" class="no-js">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Landing para eventos tecnologico</title>
+        <title>Evento tecnologico</title>
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
-        <link rel="stylesheet" href="dist/css/style.css">
+        <link rel="stylesheet" href="dist/css/sass/style.css">
         <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
         <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     </head>
-    <body class="is-boxed has-animations">
+    <body class="is-boxed has-animations dark">
         <div class="dark-mode" title="Cambiar modo">
             <img class="header-logo-image" src="dist/images/3.svg" alt="Logo">
         </div>
-        <div class="body-wrap">
+        <div class="body-wrap dark">
             <header class="site-header">
                 <div class="container">
                     <div class="site-header-inner">
@@ -34,21 +34,21 @@
                     <div class="container">
                         <div class="hero-inner">
                             <div class="hero-copy">
-                                <h1 class="hero-title mt-0">Landing Para evento de tecnología</h1>
+                                <h1 class="hero-title mt-0">Evento de tecnología</h1>
                                 <p class="hero-paragraph">Lanzamiento de app</p>
                                 <div class="hero-cta">
-                                    <a class="button button-primary" href="#">Inscribirse</a>
-                                    <a href="#" class="button">Saber más</a>
+                                    <a class="button button-primary" href="#contact-form">Inscribirse</a>
+                                    <a href="#more-information" class="button">Saber más</a>
                                 </div>
                             </div>
-                            <div class="hero-figure anime-element">
+                            <div class="">
                                 <img class="header-logo-image" src="dist/images/1.svg" alt="Logo">
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section class="features section">
+                <section class="features section" id="more-information">
                     <div class="container">
                         <div class="features-inner section-inner has-bottom-divider">
                             <div class="pricing-header text-center">
@@ -89,7 +89,7 @@
                     </div>
                 </section>
 
-                <section class="contact section">
+                <section class="contact section" id="contact-form">
                     <div class="container-sm">
                         <div class="contact-inner section-inner">
                             <div class="contact-header text-center">
@@ -152,5 +152,6 @@
         </div>
 
         <script src="dist/js/main.min.js"></script>
+        <script src="dist/js/app.js"></script>
     </body>
 </html>
